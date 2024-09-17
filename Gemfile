@@ -6,6 +6,8 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"
 
+gem 'pg', '~> 1.1'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -70,3 +72,12 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'devise'
+gem 'omniauth-google-oauth2'
+gem 'omniauth'
+gem 'omniauth-rails_csrf_protection'
+
+gem 'dotenv-rails', groups: [:development, :test]
+
+

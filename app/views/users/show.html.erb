@@ -1,0 +1,9 @@
+<h1>Your Profile</h1>
+
+<% if @user.avatar_url.present? %>
+  <p><%= image_tag(@user.avatar_url, alt: "Profile Picture") %></p>
+<% end %>
+
+<p><strong>Full Name:</strong> <%= @user.full_name %></p>
+<p><strong>Email:</strong> <%= @user.email %></p>
+<p><%= link_to "Back to Dashboard", root_path %></p>
