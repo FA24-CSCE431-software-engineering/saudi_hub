@@ -7,4 +7,5 @@ Rails.application.routes.draw do
     get 'users/sign_out', to: 'users/sessions#destroy', as: :destroy_user_session
   end
 
+  get 'profile', to: 'users#show', as: 'user_profile'
 end
