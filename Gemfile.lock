@@ -96,6 +96,10 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    dotenv (3.1.3)
+    dotenv-rails (3.1.3)
+      dotenv (= 3.1.3)
+      railties (>= 6.1)
     erubi (1.13.0)
     faraday (2.11.0)
       faraday-net_http (>= 2.0, < 3.4)
@@ -170,7 +174,11 @@ GEM
     omniauth-oauth2 (1.8.0)
       oauth2 (>= 1.4, < 3)
       omniauth (~> 2.0)
+    omniauth-rails_csrf_protection (1.0.2)
+      actionpack (>= 4.2)
+      omniauth (~> 2.0)
     orm_adapter (0.5.0)
+    pg (1.5.8)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -277,9 +285,13 @@ DEPENDENCIES
   capybara
   debug
   devise
+  dotenv-rails
   importmap-rails
   jbuilder
+  omniauth
   omniauth-google-oauth2
+  omniauth-rails_csrf_protection
+  pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.3)
   selenium-webdriver
