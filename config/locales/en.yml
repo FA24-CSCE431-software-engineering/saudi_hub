@@ -30,4 +30,18 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  dashboards:
+    show:
+      welcome: "Welcome to Saudi Hub!"
+      view_profile: "View My Profile"
+      sign_out: "Sign Out"
+  users:
+    show:
+      your_profile: "Your Profile"
+      full_name: "Full Name"
+      email: "Email"
+      back_to_dashboard: "Back to Dashboard"
+    sessions:
+      new:
+        logged_out: "You're Logged out! Log in to the Dashboard!!"
+        log_in_with: "Log in with %{provider}"

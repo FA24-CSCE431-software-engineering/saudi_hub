@@ -1,0 +1,16 @@
+ar:
+  dashboards:
+    show:
+      welcome: "مرحبا بكم في المركز السعودي!"
+      view_profile: "عرض ملفي الشخصي"
+      sign_out: "تسجيل الخروج"
+  users:
+    show:
+      your_profile: "ملفك الشخصي"
+      full_name: "الاسم الكامل"
+      email: "البريد الإلكتروني"
+      back_to_dashboard: "العودة إلى لوحة التحكم"
+    sessions:
+      new:
+        logged_out: "لقد تم تسجيل الخروج! الرجاء تسجيل الدخول للوحة التحكم!!"
+        log_in_with: "تسجيل الدخول بواسطة %{provider}"
